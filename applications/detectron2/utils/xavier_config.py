@@ -1,10 +1,7 @@
 import ipywidgets as widgets
-from utils import config
-import os
 
 def get_model(model_name):
-    model_dict = {'fast_rcnn_R_50_FPN_1x':'detectron2://COCO-Detection/fast_rcnn_R_50_FPN_1x/137635226/model_final_e5f7ce.pkl',
-              'faster_rcnn_R_101_C4_3x':'detectron2://COCO-Detection/faster_rcnn_R_101_C4_3x/138204752/model_final_298dad.pkl',
+    model_dict = {'faster_rcnn_R_101_C4_3x':'detectron2://COCO-Detection/faster_rcnn_R_101_C4_3x/138204752/model_final_298dad.pkl',
               'faster_rcnn_R_101_DC5_3x':'detectron2://COCO-Detection/faster_rcnn_R_50_DC5_3x/137849425/model_final_68d202.pkl',
               'faster_rcnn_R_101_FPN_3x':'detectron2://COCO-Detection/faster_rcnn_R_101_FPN_3x/137851257/model_final_f6e8b1.pkl',
               'faster_rcnn_R_50_C4_1x':'detectron2://COCO-Detection/faster_rcnn_R_50_C4_1x/137257644/model_final_721ade.pkl',
